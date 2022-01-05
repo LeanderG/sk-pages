@@ -4,6 +4,7 @@
 
 	// see https://kit.svelte.dev/docs#loading
 	export const load: Load = async ({ fetch }) => {
+		console.log('loading todos');
 		const res = await fetch('/todos.json');
 
 		if (res.ok) {
