@@ -25,7 +25,7 @@
 	<h2>
 		try editing <strong>src/routes/index.svelte</strong>
 	</h2>
-	<h3>Hello Neugelb</h3>
+	<h3>Hello Neugelb!</h3>
 
 	<Counter />
 </section>
